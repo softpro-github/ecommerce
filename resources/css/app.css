@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-white text-ink;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-flex items-center justify-center rounded-full bg-accent text-white uppercase tracking-wide text-xs font-semibold px-7 py-3.5 hover:bg-accent-dark transition-colors;
+    }
+
+    .btn-dark {
+        @apply inline-flex items-center justify-center rounded-full bg-black text-white uppercase tracking-wide text-xs font-semibold px-7 py-3.5 hover:bg-ink transition-colors;
+    }
+
+    .btn-outline-light {
+        @apply inline-flex items-center justify-center rounded-full border border-white text-white uppercase tracking-wide text-xs font-semibold px-7 py-3.5 hover:bg-white hover:text-black transition-colors;
+    }
+
+    .btn-outline-dark {
+        @apply inline-flex items-center justify-center rounded-full border border-black/20 text-ink uppercase tracking-wide text-xs font-semibold px-7 py-3.5 hover:border-black hover:bg-black hover:text-white transition-colors;
+    }
+
+    .section-heading {
+        @apply text-[15px] font-light tracking-wide text-center;
+    }
+
+    .section-eyebrow {
+        @apply font-script text-2xl sm:text-3xl text-center;
+    }
+
+    .page-title {
+        @apply text-3xl sm:text-4xl font-semibold text-ink;
+    }
+
+    .animate-marquee {
+        animation: marquee 18s linear infinite;
+    }
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
