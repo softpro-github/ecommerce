@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:offthug19.com)",
-      "PowerShell(php set_admin_pw.php)"
-    ]
-  }
-}
