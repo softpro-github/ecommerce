@@ -5,6 +5,7 @@ A full-featured e-commerce storefront and admin panel built with Laravel, Livewi
 ## Table of Contents
 
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -35,6 +36,35 @@ A full-featured e-commerce storefront and admin panel built with Laravel, Livewi
 - Homepage slide/campaign management
 - FAQ management
 - Site settings (general, mail, chat)
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Login screen](docs/images/admin-guide/00-login.png) | ![Admin dashboard](docs/images/admin-guide/01-dashboard.png) |
+| Login | Dashboard |
+
+| | |
+|---|---|
+| ![Products list](docs/images/admin-guide/02-products-list.png) | ![Product form](docs/images/admin-guide/03-products-form.png) |
+| Products list | Add/edit product |
+
+| | |
+|---|---|
+| ![Orders list](docs/images/admin-guide/05-orders-list.png) | ![Order detail](docs/images/admin-guide/06-orders-detail.png) |
+| Orders list | Order detail |
+
+| | |
+|---|---|
+| ![Customers list](docs/images/admin-guide/07-customers-list.png) | ![Coupons list](docs/images/admin-guide/09-coupons.png) |
+| Customers list | Coupons |
+
+| | |
+|---|---|
+| ![Homepage slides](docs/images/admin-guide/10-slides-hero.png) | ![Site settings](docs/images/admin-guide/14-settings-top.png) |
+| Homepage slides | Site settings |
+
+More screenshots — categories, campaign slides, FAQs, and mail/chat settings — are in [docs/ADMIN_GUIDE.md](docs/ADMIN_GUIDE.md).
 
 ## Tech Stack
 
